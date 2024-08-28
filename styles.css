@@ -309,6 +309,7 @@ body {
     .profile-section header img {
         width: 60px;
         height: 60px;
+        margin-bottom: 1rem;
     }
 
     .profile-section header p {
@@ -341,10 +342,22 @@ body {
             "one two three four"
             "one five six seven";
     }
+
+    .section-head h1 {
+        margin-right: 4rem;
+    }
     
     .time-display {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .current-span {
+        font-size: 2.5rem;
+    }
+
+    .previous-span {
+        font-size: 0.75rem;
     }
 }
 
