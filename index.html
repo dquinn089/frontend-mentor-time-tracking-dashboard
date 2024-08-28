@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.js"></script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+
+  <main class="section-grid">
+
+    <section class="profile-section">
+      <header>
+        <img src="images/image-jeremy.png" alt="profile-img">
+        <div class="profile-heading">
+          <p>Report for</p>
+          <h1>Jeremy <span>Robson</span></h1>
+        </div>
+      </header>
+      <div class="stat-controls">
+        <button id="daily-btn">Daily</button>
+        <button id="weekly-btn">Weekly</button>
+        <button id="monthly-btn">Monthly</button>
+      </div>
+    </section>
+
+    <section class="work-section">
+      <div class="icon-banner">
+        <img src="images/icon-work.svg" alt="work-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Work</h1>
+            <button>
+              <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+              <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+            </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">32hrs</span>
+          <span class="previous-span">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </section>
+  
+    <section class="play-section">
+      <div class="icon-banner">
+        <img src="images/icon-play.svg" alt="play-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Play</h1>
+          <button>
+            <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+            <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+          </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">10hrs</span>
+          <span class="previous-span">Last Week - 8hrs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="study-section">
+      <div class="icon-banner">
+        <img src="images/icon-study.svg" alt="study-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Study</h1>
+          <button>
+            <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+            <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+          </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">4hrs</span>
+          <span class="previous-span">Last Week - 7hrs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="exercise-section">
+      <div class="icon-banner">
+        <img src="images/icon-exercise.svg" alt="exercise-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Exercise</h1>
+          <button>
+            <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+            <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+          </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">4hrs</span>
+          <span class="previous-span">Last Week - 5hrs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section">
+      <div class="icon-banner">
+        <img src="images/icon-social.svg" alt="social-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Social</h1>
+          <button>
+            <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+            <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+          </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">5hrs</span>
+          <span class="previous-span">Last Week - 10hrs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="self-care-section">
+      <div class="icon-banner">
+        <img src="images/icon-self-care.svg" alt="self-care-icon">
+      </div>
+      <div class="section-article">
+        <div class="section-head">
+          <h1>Self Care</h1>
+          <button>
+            <img src="images/icon-ellipsis.svg" alt="dots" class="dots-svg">
+            <img src="images/icon-ellipsis-2.svg" alt="dots" class="dots-svg hover">
+          </button>
+        </div>
+        <div class="time-display">
+          <span class="current-span">2hrs</span>
+          <span class="previous-span">Last Week - 2hrs</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dylan Q</a>.
+    </div>
+  </footer>
+
+</body>
+
+</html>
